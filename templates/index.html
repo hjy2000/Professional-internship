@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>真假职位信息分辨</title>
+    <link href="../static/css/index.css" rel="stylesheet"/>
+    <script src="../static/js/echarts.js"></script>
+</head>
+<body>
+<div id="mainFrame">
+    <div id="title">真假职位信息分辨</div>
+    <div class="part">各数据元素重要性</div>
+    <div class="graph" id="g1" style="width: 100%; height: 500px;"></div>
+    <div id="ps">（注：重要性排行前五的元素为：location、industry、title、description_wordsLen、requirements_wordsLen）</div>
+
+    <div class="part">真假职位数量统计</div>
+    <div class="graph" id="g2" style="width: 100%; height: 500px;"></div>
+
+    <div class="part">前五个职位真假检测</div>
+    <div class="graph" id="g3" style="width: 100%; height: 500px;"></div>
+</div>
+<script src="../static/js/g1.js"></script>
+<script src="../static/js/g2.js"></script>
+<script src="../static/js/g3.js"></script>
+</body>
+</html>
